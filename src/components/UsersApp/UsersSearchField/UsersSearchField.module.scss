@@ -1,0 +1,17 @@
+.users_search_block {
+  //width: 100%;
+  padding: 10px;
+}
+
+.users_search_info {
+  margin: 0 auto;
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+
+  span {
+    font-family: Kanit;
+    font-weight: 300;
+    font-style: italic;
+  }
+}

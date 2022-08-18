@@ -1,0 +1,140 @@
+.header {
+  padding: 0 25px;
+  background-color: #161b22;
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  align-items: center;
+  flex-wrap: wrap;
+  color: white;
+  width: 100%;
+  position: sticky;
+  left: 0;
+  top: 0;
+  margin-bottom: 15px;
+  z-index: 1111;
+
+  &_logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    h1 {
+      font-family: Kanit;
+      letter-spacing: 3px;
+    }
+
+    img {
+      width: 50px;
+      height: 50px;
+      border: 1px solid white;
+      border-radius: 20px;
+
+      &:hover {
+        cursor: pointer;
+        background-color: grey;
+      }
+    }
+  }
+
+  &_searchField {
+    min-width: 350px;
+
+  }
+
+  &_score {
+    min-width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Kanit;
+    letter-spacing: 1px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 5px;
+
+    &_logo {
+      margin-top: 10px;
+
+      h1 {
+        font-size: 25px;
+      }
+    }
+
+    &_searchField {
+      min-width: 320px;
+
+    }
+
+    &_score {
+      padding: 10px;
+      min-width: 320px;
+
+      font-size: 12px;
+
+    }
+  }
+
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 5px;
+
+    &_logo {
+      margin-top: 10px;
+
+      h1 {
+        font-size: 28px;
+      }
+    }
+
+    &_searchField {
+      min-width: 400px;
+    }
+
+    &_score {
+      padding: 10px;
+      min-width: 400px;
+      font-size: 14px;
+
+    }
+  }
+
+}
+
+@media screen and (min-width: 993px) and (max-width: 1140px) {
+  .header {
+    gap: 5px;
+
+    &_logo {
+      margin-top: 10px;
+
+      h1 {
+        font-size: 20px;
+      }
+    }
+
+    &_searchField {
+      min-width: 280px;
+    }
+
+    &_score {
+      padding: 10px;
+      min-width: 280px;
+      font-size: 12px;
+
+    }
+  }
+}

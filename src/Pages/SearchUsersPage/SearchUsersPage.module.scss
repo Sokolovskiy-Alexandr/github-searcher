@@ -1,0 +1,9 @@
+.search_user_page {
+  width: 600px;
+}
+
+@media screen and (max-width: 576px) {
+  .search_user_page {
+    width: 95%;
+  }
+}

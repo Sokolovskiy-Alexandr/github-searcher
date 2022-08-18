@@ -1,0 +1,46 @@
+.repo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .5rem;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px 2px rgba(34, 60, 80, 0.2);
+  width: 100%;
+  min-height: 120px;
+
+  h4, h3 {
+    margin: .5rem .6rem;
+  }
+
+  &_name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    min-width: 200px;
+    max-width: 400px;
+
+    a {
+      color: #161b22;
+      font-family: Kanit;
+      letter-spacing: 2px;
+      font-weight: 300;
+      font-style: italic;
+
+    }
+  }
+  &_stars {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+}
+
+h4 {
+  font-family: Kanit;
+  letter-spacing: 2px;
+
+}
