@@ -70,7 +70,6 @@ export const ReposContainer: React.FC = () => {
         <Repos
           filteredRepos={filteredRepos}
           reposCount={reposCount}
-          isLoading={isLoading}
           totalReposCount={totalReposCount}
           isLoadMoreRepos={isLoadMoreRepos}
           reposSearchValue={reposSearchValue}

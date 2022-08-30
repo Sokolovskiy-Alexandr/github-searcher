@@ -2,7 +2,7 @@
   "name": "github-searcher",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Copermaine.github.io/github_searcher",
+  "homepage": "https://Sokolovskiy-Alexandr.github.io/github-searcher",
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.4",
     "@testing-library/jest-dom": "^5.16.5",
