@@ -8,7 +8,7 @@ import "./index.scss";
 
 const root = ReactDOM.createRoot(document.getElementById("root") as HTMLElement);
 root.render(
-  <BrowserRouter>
+  <BrowserRouter basename="/React">
     <Provider store={store}>
       <App />
     </Provider>
